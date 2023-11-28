@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.plan-heading{
+ 
+ 
+  border: 7px dotted blue;
+  border-radius: 16px;
+
+  
+  margin-block: 2rem;
+  padding: 0.7rem 5.9rem;
+  font-weight: bold;
+  font-size: 2rem;
+  
+
+}
+
+.cards{
+  max-width: 1050px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+
+
+}
+
+.card{
+width: 300px;
+height: max-content;
+display: flex;
+flex-direction: column;
+margin: 1rem;
+padding: 1rem;
+gap: 10px;
+box-shadow: rgba(1,1,1,0.24) 0px 3px 8px;
+align-items: center;
+}
+
+.image{
+  width: 280px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.tour-info{
+  margin: 20px 5px;
+}
+
+.remove-btn{
+  background-color: rgb(243, 215, 250);
+  color: black;
+  border: 2px solid rgb(230, 165, 176);
+  border-radius: 7px;
+  padding: 0.7rem 4rem;
+  font-weight: 600;
+
+  margin-top: 15px;
+
+}
+
+.remove-btn:hover{
+  background-color: rgb(230, 165, 176);
+  color: white;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.tour-price{
+  color: rgb(22, 171, 22);
+  font-size:1.1rem ;
+  font-weight: bolder;
+  margin-block: 0.7rem;
+}
+
+.tour-name{
+  font-size:1.8rem ;
+  font-weight: 600;
+  margin-block: 0.7rem;
+
+}
+
+.description{
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.read-more{
+  color: rgba(7, 83, 196, 0.881);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.No-tours{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  align-items: center;
+  gap: 2rem;
+}
+.refresh{
+  padding: 0.5rem 1.7rem;
+  border-radius: 5px;
+  font-size: 1.2px;
+  font-weight: bold;
+}
